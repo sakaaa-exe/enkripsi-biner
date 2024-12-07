@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Binary Encoder & Decoder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Binary Encoder & Decoder Made by Saka</h1>
+    <div class="card">
+      <h2>Enkripsi</h2>
+      <textarea id="textInput" placeholder="Masukkan teks yang ingin dienkripsi"></textarea>
+      <button id="encryptButton">Enkripsi</button>
+      <textarea id="binaryOutput" readonly placeholder="Hasil enkripsi"></textarea>
+      <button id="copyEncryptButton">Salin Hasil</button>
+    </div>
+
+    <div class="card">
+      <h2>Dekode</h2>
+      <textarea id="binaryInput" placeholder="Masukkan angka biner untuk didekode (dipecahkan)"></textarea>
+      <button id="decodeButton">Dekode</button>
+      <textarea id="textOutput" readonly placeholder="Hasil dekode"></textarea>
+      <button id="copyDecodeButton">Salin Hasil</button>
+    </div>
+  </div>
+
+  <div id="popup" class="hidden">Hasil disalin ke clipboard!</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
